@@ -1,29 +1,26 @@
-# frontend_projectmain
+# Single Camera Football Match Analysis - Frontend (Dashboard)
 
-This template should help get you started developing with Vue 3 in Vite.
+## Project Overview
+The web interface for the Football Match Analysis system. This dashboard allows users to upload match videos and visualize key performance indicators (KPIs) like possession percentage and player movements.
 
-## Recommended IDE Setup
+**Student Name:** Amina Kendi  
+**Admission Number:** 22/05510  
+**Course:** BSD 3106/3201 - Bachelor of Science in Software Development
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Customize configuration
+## 📊 Features
+* **Video Upload Portal:** Interface to send footage to the AI backend.
+* **Possession Tracker:** Real-time visual display of Team A vs. Team B ball control.
+* **Responsive Design:** Built to work on both laptops and tablets for on-pitch analysis.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 🛠️ Tech Stack
+* **Framework:** Vue.js 3
+* **Styling:** Tailwind CSS
+* **Build Tool:** Vite
+* **HTTP Client:** Axios (API connection to Flask)
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+## 🏁 How to Run
+1. Install dependencies: `npm install`
+2. Start the development server: `npm run dev`
+3. View the app at `http://localhost:5173`
